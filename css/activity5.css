@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Oswald:wght@200..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.text-container {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 60%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(41, 41, 41, 0);
+    padding: 0.5rem;
+    text-align: left;
+    font-size: 16px;
+    width: 934px;
+
+}
+
+.text-container h1 {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 128px;
+}
+
+.text-container h2 {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 128px;
+}
+
+.text-container a {
+    display: inline-block;
+    padding-top: 20px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 24px;
+    color: #000000;
+    width: 173px;
+    height: 80px;
+    background-color: #ffffff;
+    border: #ffffff;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.text-container p {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 32px;
+}
