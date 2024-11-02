@@ -19,8 +19,26 @@ a{
   color: #ffffff;
 }
 
+b{
+  color: #e6a22c;
+}
+
+.lead {
+  font-style: italic;
+  font-weight: lighter;
+}
+
 .navbar {
 
-  background-color: #242E73 ;
+  background-color: #181818 ;
 
+}
+
+body{
+
+  background-color: #121212;
+}
+
+.card{
+  background-color: #242E73;
 }
