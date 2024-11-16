@@ -20,7 +20,7 @@ a{
 }
 
 b{
-  color: #e6a22c;
+  color: #F9A519;
 }
 
 .lead {
@@ -36,9 +36,29 @@ b{
 
 body{
 
-  background-color: #121212;
+  background-color: #1d1d1d;
 }
 
-.card{
-  background-color: #242E73;
+.waviy {
+  position: relative;
+}
+.waviy span {
+  font-family: "Oswald", serif;
+  
+  font-optical-sizing: auto;
+  position: relative;
+  display: inline-block;
+  color: #F9A519;
+  text-transform: uppercase;
+  animation: waviy 4s infinite;
+  animation-delay: calc( .2s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
 }

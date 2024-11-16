@@ -7,60 +7,56 @@
   <title>Visit Philippines</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="activity5.css">
+    <link rel="icon" type="image" href="img/philippine-sun-hi.png">
 
-  <style>
-    body {
-      background-image: url('img/forest.png');
-      background-size: cover;
-      background-position: center;
-    }
-
-    .hero-img {
-      width: 1550px;
-      height: 1070px;
-      max-height: 878px;
-      object-fit: cover;
-    }
-  </style>
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark shadow-0">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="https://beta.tourism.gov.ph">
-        <img src="img/visit-Philippines.png" alt="Bootstrap" width="173" height="52">
-      </a>
+  <div class="bg-image vh-100 d-flex align-items-center"
+    style="background-image: url('img/forest.png'); background-size: cover; background-position: center;">
+    <div class="mask w-100 h-100" style="background-color: rgba(0, 0, 0, 0.4);">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a href="https://beta.tourism.gov.ph">
+            <img src="img/visit-Philippines.png" alt="Visit Philippines Logo" width="150">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="about-ph.html" class="nav-link m-2 text-light">About Philippines</a>
+              </li>
+              <li class="nav-item">
+                <a href="https://www.tripadvisor.com.ph/Hotels-g294245-Philippines-Hotels.html"
+                  class="nav-link m-2 text-light" target="_blank">Plan Your Trip</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a href="about-ph.html" class="nav-link m-3 menu-item nav-active">About Philippines</a>
-          </li>
-          <li class="nav-item">
-            <a href="https://www.tripadvisor.com.ph/Hotels-g294245-Philippines-Hotels.html"
-              class="nav-link m-3 menu-item" target="_blank">Plan Your Trip</a>
-          </li>
-        </ul>
+      <div class="container text-center text-md-start">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-5 d-none d-lg-block">
+            <img src="img/eagle.png" class="img-fluid" alt="Philippine Eagle" width="364">
+          </div>
+          <div class="col col-lg-6 col-md-12 text-light">
+            <div class="p-3 my-5">
+              <p class="h1" style="font-size: 48px;"><b>Soar with the</b></p>
+              <p class="h1" style="font-style: italic; font-weight: lighter; font-size: 42px;">Philippine Eagle.</p>
+              <p class="lead" style="font-style: italic">
+                7,641 islands, endless escapes—how many will you conquer in the Philippines?
+              </p>
+              <a href="about-ph.html" class="btn btn-primary">LEARN MORE</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </nav>
-
-  <div class="container-fluid p-0">
-    <img src="img/eagle.png" alt="Philippine Eagle" class="img-fluid hero-img">
-  </div>
-  <div class="text-container">
-    <h1 class="display-1">Soar with the</h1>
-    <h2 class="display-2">Philippine Eagle.</h2>
-    <p class="lead">
-      7,641 islands, endless escapes—how many will you conquer in the Philippines?
-    </p>
-    <a href="about-ph.html">LEARN MORE</a>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
