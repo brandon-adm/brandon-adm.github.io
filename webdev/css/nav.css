@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.nav-color {
+    background-color: #efefef;
+}
+
+.nav-link {
+    color: #878787;
+    font-family: "Montserrat", sans-serif;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #878787;
+    border-radius: 20px;
+    background: #efefef;
+    box-shadow: 6px 6px 12px #bebebe,
+        -6px -6px 5px #ffffff;
+}
