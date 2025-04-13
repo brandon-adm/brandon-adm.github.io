@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+p {
+  font-family: "Capriola", sans-serif;
+  color: #fff;
+}
+
+h4{
+  font-family: "Space Grotesk", sans-serif;
+  color: #fff;
+}
+
+.card {
+    border-color: #d0990e;
+  }
+
+  .bg-dark {
+    background-color: #292929 !important;
+  }
+
+  .bg-body-tertiary {
+    background-color: #404040 !important;
+  }
+
+  .scrollbar-style {
+    scrollbar-color: #d0990e #292929;
+    scrollbar-width: thin;
+  }
+
+.title-color {
+    color: #d0990e;
+    font-family: "Capriola", sans-serif;
+  }
+
+
+  .text-original{
+    font-size: 17px;
+  }
+
+
+  .text-color {
+    color: #fff;
+    font-family: "Space Grotesk", sans-serif;
+  }
+
+  .text-color:hover {
+    color: #d0990e;
+  }

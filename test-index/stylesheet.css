@@ -1,45 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 body {
-    background-color: #EFEFEF;
-
+  background-color: #efefef;
 }
 
 a {
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
 }
 
-h1 {
-    text-decoration: none;
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-size: 3rem;
+.neu-container {
+  border-radius: 30px;
+  background: #efefef;
+  box-shadow: 7px 7px 8px #9e9e9e, -7px -7px 8px #ffffff;
 }
 
 .neu-shadow {
-    border-radius: 50px;
-    background: #efefef;
-    box-shadow: 7px 7px 14px #cbcbcb,
-        -7px -7px 14px #ffffff;
+  border-radius: 50px;
+  background: #efefef;
+  box-shadow: 7px 7px 8px #9e9e9e, -7px -7px 8px #ffffff;
 }
 
 .img-thumbnail {
-    border-radius: 50px;
-    background: #efefef;
-    box-shadow: inset 7px 7px 14px #cbcbcb,
-        inset -7px -7px 14px #ffffff;
+  border-radius: 50px;
+  background: #efefef;
+  box-shadow: inset 7px 7px 14px #cbcbcb, inset -7px -7px 14px #ffffff;
 }
 
 .logo-img {
-    width: 38px;
-    height: 40px;
-    background-image: url(../img/wordmark-black.png);
-    background-size: contain;
-    transition: background-image 0.3s ease-in-out;
+  width: 38px;
+  height: 40px;
+  background-image: url(../img/wordmark-black.png);
+  background-size: contain;
+  transition: background-image 0.3s ease-in-out;
 }
 
 .logo-img:hover {
-    background-image: url(../img/wordmark-orange.png);
+  background-image: url(../img/wordmark-orange.png);
+}
+
+.btn-neu {
+  color: #bfbfbf;
+  font-size: 25px;
+  background: #efefef;
+  border-radius: 25px;
+  box-shadow: inset 6px 6px 9px #cbcbcb, inset -6px -6px 9px #ffffff;
+}
+
+.btn-neu:hover {
+  color: #6ab99f;
+  border-width: 1px;
+  border-radius: 25px;
+  border-color: #13eea9;
+
+  box-shadow: 12px 12px 20px #cbcbcb, -12px -12px 20px #ffffff;
+}
+
+.btn-neu:active {
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+  border-color: #26ae83;
+  transition: 0.5s;
+}
+
+.nav-link:hover {
+  color: #13eea9;
+}
+
+.title-hero {
+  text-decoration: none;
+  font-family: "Space Mono", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
 }
