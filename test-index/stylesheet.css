@@ -1,81 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-body {
-  background-color: #efefef;
+.bg {
+  background-color: #f0f0f0;
 }
 
-a {
-  text-decoration: none;
-  font-family: "Montserrat", sans-serif;
+.h1 {
+  font-family: poppins, sans-serif;
+  font-weight: bold;
+  font-size: 64px;
+  color: #428DFF;
 }
 
-.neu-container {
-  border-radius: 30px;
-  background: #efefef;
-  box-shadow: 13px 13px 26px #cbcbcb, -13px -13px 26px #ffffff;
-}
-
-.neu-shadow {
-  border-radius: 50px;
-  background: #efefef;
-  box-shadow: 13px 13px 26px #cbcbcb, -13px -13px 26px #ffffff;
-}
-
-.img-thumbnail {
-  border-radius: 50px;
-  background: #efefef;
-  box-shadow: inset 13px 13px 26px #cbcbcb,
-              inset -13px -13px 26px #ffffff;
-}
-
-.logo-img {
-  width: 38px;
-  height: 40px;
-  background-image: url(../img/wordmark-black.png);
-  background-size: contain;
-  transition: background-image 0.3s ease-in-out;
-}
-
-.logo-img:hover {
-  background-image: url(../img/wordmark-orange.png);
-}
-
-.btn-neu {
-  color: #bfbfbf;
-  font-size: 25px;
-  background: #efefef;
-  border-radius: 25px;
-  box-shadow: inset 6px 6px 9px #cbcbcb, inset -6px -6px 9px #ffffff;
-}
-
-.btn-neu:hover {
-  color: #6ab99f;
-  border-width: 1px;
-  border-radius: 25px;
-  border-color: #13eea9;
-
-  box-shadow: 12px 12px 20px #cbcbcb, -12px -12px 20px #ffffff;
-}
-
-.btn-neu:active {
-  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
-  border-color: #26ae83;
-  transition: 0.5s;
-}
-
-.nav-link:hover {
-  color: #13eea9;
-}
-
-.title-hero {
-  text-decoration: none;
-  font-family: "Space Mono", sans-serif;
-  font-weight: 900;
-}
-
-#banner-style{
-  
-  background-color: red; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, #6ab99f, #13eea9);
+.lead {
+  font-family: "Manrope", sans-serif;
+  font-size: 24px;
+  color: #676767;
 }

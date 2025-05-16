@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Domino's Pizza</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-straight/css/uicons-bold-straight.css'>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="icon" type="image" href="img/icon.png">
+</head>
+
+<body>
+    <nav class="navbar shadow" style="background-color: #0B648F;">
+        <div class="container-fluid">
+            <img src="img/logo.png" alt="Bootstrap" width="auto" height="35">
+            <a class="p-2 home-button" href="../index.html" id="title"><i class="fi fi-bs-house-chimney"></i></a>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row p-3">
+            <div class="col-9">
+                <div class="row">
+                    <div class="col py-1">
+                        <div class="card p-3 topcontainer shadow-sm">
+                            <div class="d-flex flex-start flex-row categories" id="categories">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="card p-2 maincontainer shadow">
+                            <div class="d-flex flex-start flex-row flex-wrap justify-content-center" id="maincontainer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card p-3 d-flex flex-column justify-content-between shadow receipt" style="height: 100%;">
+                    <div id="receipt" class="overflow-auto" style="max-height: 60vh;"></div>
+                    <div>
+                        <div class="mt-3 d-flex flex-row justify-content-between total-text">
+                            <div><b>TOTAL</b></div>
+                            <div><b id="totalValue">0</b></div>
+                        </div>
+                        <div class="mt-3">
+                            <button class="btn btn-warning btn-sm w-100" onclick="clearReceipt()">Submit Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/data.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous">
+            </script>
+</body>
+
+</html>

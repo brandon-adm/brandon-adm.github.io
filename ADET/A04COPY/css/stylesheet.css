@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+* {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.home-button {
+  background-color: #3b8f0b;
+  color: white;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: 700;
+  border: none;
+}
+.receipt{
+    background-color: #ffdf6c;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+    font-weight: 700;
+}
+.card {
+  font-size: large;
+  font-weight: 700;
+}
+
+.custom-button {
+  width: 100px;
+}
+
+.custom-button.content {
+  width: 200px;
+}
+
+.custom-button:hover {
+  background-color: #ffdf6c;
+  border-color: #e21737;
+  border-width: 2px;
+  cursor: pointer;
+}
+
+.topcontainer {
+  height: 13dvh;
+  background-color: #0b648f;
+  scrollbar-width: thin;
+  scrollbar-color: #f0f0f0;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.categories {
+  width: fit-content;
+}
+
+.maincontainer {
+  height: 75dvh;
+  border-width: 3px;
+  scrollbar-width: thin;
+  scrollbar-color: #f0f0f0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.total-text {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 10px;
+}
